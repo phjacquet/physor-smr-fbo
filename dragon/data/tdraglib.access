@@ -1,0 +1,42 @@
+#!/bin/sh
+if [ $# = 0 ]
+   then
+   echo "usage: tdraglib.access directory" 1>&2
+   exit 1
+fi
+
+#pos=/home/ruoyu/data/DragLib/l_endian/
+pos=/home/physor/data/neutro/VERSION4/LIB
+
+if [ -f "$pos"/draglibJeff3p1p2SHEM295 ]
+   then
+    echo "link DLIB_J3 to $pos/draglibJeff3p1p2SHEM295"
+    ln -s "$pos"/draglibJeff3p1p2SHEM295 DLIB_J3
+fi
+
+if [ -f "$pos"/draglibJeff3p1p2XMAS172 ]
+   then
+    echo "link DLIB_J3XMAS to $pos/draglibJef2p2 DLIB_J3XMAS"
+    ln -s "$pos"/draglibJeff3p1p2XMAS172 DLIB_J3XMAS
+fi
+
+if [ -f "$pos"/draglibJeff3p1p2SHEM295 ]
+   then
+    echo "link DLIB_J3 to $pos/draglibJeff3p1p2SHEM295"
+    ln -s "$pos"/draglibJeff3p1p2SHEM295 DLIB_J3
+fi
+
+if [ -f "$pos"/draglibJef2p2SHEM361 ]
+   then
+    echo "link DLIB_J2_361 to $pos/draglibJef2p2SHEM361"
+    ln -s "$pos"/draglibJef2p2SHEM361 DLIB_J2_361
+fi
+if [ -f "$pos"/draglibJef2p2SHEM295 ]
+   then
+    echo "link DLIB_J2_295 to $pos/draglibJef2p2SHEM295"
+    ln -s "$pos"/draglibJef2p2SHEM295 DLIB_J2_295
+fi
+ls
+echo "tdraglib access script terminated"
+
+
