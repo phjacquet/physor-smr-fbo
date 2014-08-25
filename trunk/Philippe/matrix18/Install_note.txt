@@ -1,0 +1,47 @@
+MATRIX and LINEAR ALGEBRA Package For EXCEL
+MATRIX.XLA - Ver. 1.8 -  July. 2004
+
+This Excel addin contains useful functions for Matrix and Linear Algebra.
+Norm. Matrix multiplication. Similarity Transform. Determinant. Inverse. Power. Trace. Scalar Product. Vector Product. Eigenvalues and Eigenvectors of symmetric matrices with Jacobi algorithm. Jacobi rotation matrix. Real and complex Eigenvalues with QR algorithm. Eigenvalues of tridiagonal matrices with QL algorithm. Characteristic polynomial. Random matrices with given eigenvalues. Random matrices with given Rank or Determinant. Several useful matrices: Hilbert's, Houseolder's, Tartaglia's, Vandermonde's. Hessemberg form. Gauss-Jordan algorithm step by step. Linear Systems. Solving Linear Systems with iterative methods: Gauss-Seidel and Jacobi algorithms. Singular Linear Systems. Linear Transformation. Gram-Schmidt's Orthogonalization. Matrix Factorization: LU, QR, SVD and Cholesky decomposition. Extract sub-matrix. Rank. Floyd's shortest-path algorithm. Complex matrix operations. Complex Inversion. Complex Linear Systems. Complex eigenvectors. Lin-Bairstow polynomial root finder. Polynomial rootfinder with HQR algorithm.  Linear system with tridiagonal matrix. Inversion of tridiagonal matrix. Toeplitz Linear system. Linear, polynomial and pieces-polynomial regression. Admittance matrix of a Linear Network. Leontief matrix. Block-Triangular matrix. All functions work in standard 32 bit precision. Help on line. No installation. Freeware and open source. Tutorial available in pdf format. For math fans! 
+
+
+Installation Notes
+
+This addin for Excel 2000/XP  is composed by 4 files:
+matrix.xla
+matrix.hlp
+matrix.csv
+FunCustomize.dll  (*)
+
+(*) FunCustomize.dll appears by courtesy of Laurent Longre  (http://longre.free.fr)
+
+Place all the above files in a folder of your choice. The addin is contained entirely in this directory. Your system is not modified in any other way. If you want to uninstall this package, simply delete its folder - it's as simple as that!
+
+To use, follow the usual procedure for installing Excel Addins:
+   1) Open Excel
+   2) Select <Addins...> from the <Tools> menu
+   3) Once in the Addins Manager, search for and select "matrix.xla"
+   4) Click OK and have fun!
+
+When starting, Excel loads all the addins that are checked in the Addins Manager list. If you want to stop MATRIX from loading, simply deselect its check-box.
+
+"matrix.csv" can be used only if you have XNUMBERS 2.4 package. In that case put the CSV file in the same directory of xnumbers. The Xnumbers function handbook will be able to load also the new functions of "matrix.xla"
+
+
+MATRIX software is freeware and completely open. I hope you enjoy using it.
+I will appreciate every your suggestions and bug reports. 
+:-) 
+In the meantime, have fun! 
+
+
+By Leonardo Volpi
+Foxes team
+Roma, Italy
+
+http:\\digilander.libero.it\foxes
+E-mail: leovlp@libero.it
+E-mail: volpi.leonardo@enel.it
+
+
+
+
